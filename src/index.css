@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(61, 75, 80);
+  color: white;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+li{
+  text-decoration: none;
+  color: aliceblue;
+}
+li:hover{
+  color: rgb(82, 218, 89);
+}
+.PersonInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(47, 96, 110);
+  color: aliceblue;
+  align-items: center;
+  height: 90vh;
+}
+.user-card{
+  height: 50%;
 }
